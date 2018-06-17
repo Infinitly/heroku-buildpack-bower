@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [ -f "$1/bower.json" ]; then
-  echo "Ruby"
+  echo "Bower"
   exit 0
 else
   echo "no"
