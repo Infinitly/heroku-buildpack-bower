@@ -1,8 +1,9 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-if [ -f $1/bower.json ]; then
-  echo "Bower buildpack"
+if [ -f "$1/bower.json" ]; then
+  echo "Ruby"
+  exit 0
 else
-  echo "No bower.json"
+  echo "no"
   exit 1
 fi
